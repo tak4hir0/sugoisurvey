@@ -108,6 +108,7 @@
         <label>コメント番号</label>
         <type>AutoNumber</type>
     </nameField>
+    <pluralLabel>Comments</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
