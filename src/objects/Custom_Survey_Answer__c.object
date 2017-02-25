@@ -115,6 +115,7 @@
         <label>回答番号</label>
         <type>AutoNumber</type>
     </nameField>
+    <pluralLabel>Answers</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
