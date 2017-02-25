@@ -972,16 +972,16 @@
         <masterLabel>アンケートをコピー</masterLabel>
         <openType>onClickJavaScript</openType>
         <protected>false</protected>
-        <url>if(confirm(&apos;{!$Label.cloning_event} {!$Label.are_you_sure}&apos;)){ 
-sugoisurvey4.jr_session.clone_session(&apos;{!Session__c.Id}&apos;, 
-function(result, event){ 
-if (event.status){ 
-window.location = &apos;/apex/session_list&apos;; 
-} else { 
-alert(event.message); 
-} 
-},{escape:true} 
-); 
+        <url>if(confirm(&apos;{!$Label.cloning_event} {!$Label.are_you_sure}&apos;)){
+sugoisurvey4.jr_session.clone_session(&apos;{!Session__c.Id}&apos;,
+function(result, event){
+if (event.status){
+window.location = &apos;/apex/session_list&apos;;
+} else {
+alert(event.message);
+}
+},{escape:true}
+);
 }</url>
     </webLinks>
     <webLinks>
@@ -992,16 +992,16 @@ alert(event.message);
         <masterLabel>アンケート終了</masterLabel>
         <openType>onClickJavaScript</openType>
         <protected>false</protected>
-        <url>if(confirm(&apos;{!$Label.closing_survey} {!$Label.are_you_sure}&apos;)){ 
-    sugoisurvey4.jr_session.close_survey(&apos;{!Session__c.Id}&apos;, 
-        function(result, event){ 
-            if (event.status){ 
-                window.location = &apos;/{!Session__c.Id}&apos;; 
-            } else { 
-                alert(event.message); 
-            } 
-        },{escape:true} 
-    ); 
+        <url>if(confirm(&apos;{!$Label.closing_survey} {!$Label.are_you_sure}&apos;)){
+    sugoisurvey4.jr_session.close_survey(&apos;{!Session__c.Id}&apos;,
+        function(result, event){
+            if (event.status){
+                window.location = &apos;/{!Session__c.Id}&apos;;
+            } else {
+                alert(event.message);
+            }
+        },{escape:true}
+    );
 }</url>
     </webLinks>
     <webLinks>
@@ -1049,16 +1049,5 @@ alert(event.message);
 },{escape:true}
 );
 }</url>
-    </webLinks>
-    <webLinks>
-        <fullName>deliver_handout</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>メール配信</masterLabel>
-        <openType>noSidebar</openType>
-        <page>deliver_handout</page>
-        <protected>false</protected>
     </webLinks>
 </CustomObject>
