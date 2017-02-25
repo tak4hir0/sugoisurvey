@@ -60,7 +60,6 @@
         <members>S1_tab_session_property</members>
         <members>S1_tab_session_report</members>
         <members>deliver_deck</members>
-        <members>deliver_handout</members>
         <members>edit_survey</members>
         <members>event_id</members>
         <members>guest</members>
@@ -68,11 +67,8 @@
         <members>guest_profile</members>
         <members>init</members>
         <members>presenter</members>
-        <members>report</members>
         <members>session_list</members>
         <members>site_setting</members>
-        <members>sites_mobile</members>
-        <members>sites_non_mobile</members>
         <members>sites_rwd</members>
         <members>sites_top</members>
         <members>survey</members>
