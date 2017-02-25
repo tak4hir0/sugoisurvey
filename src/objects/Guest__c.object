@@ -337,6 +337,7 @@ Last_Name__c + &apos; &apos; +  First_Name__c
         <trackFeedHistory>false</trackFeedHistory>
         <type>AutoNumber</type>
     </nameField>
+    <pluralLabel>Guests</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Name__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
