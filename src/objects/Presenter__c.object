@@ -109,6 +109,7 @@
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
+    <pluralLabel>Presenters</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Company__c</customTabListAdditionalFields>
