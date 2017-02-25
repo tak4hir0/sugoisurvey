@@ -770,10 +770,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>deliver_handout</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>edit_survey</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
