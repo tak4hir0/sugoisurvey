@@ -2,7 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>すごいアンケート</fullName>
     <apiAccessLevel>Unrestricted</apiAccessLevel>
-    <namespacePrefix>sugoisurvey4</namespacePrefix>
     <types>
         <members>RemoteTKController</members>
         <members>SFDCEncoder</members>
