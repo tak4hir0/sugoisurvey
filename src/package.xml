@@ -465,11 +465,6 @@
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>NewSugoiSurvey</members>
-        <members>Session__c.S1_act_new_question</members>
-        <name>QuickAction</name>
-    </types>
-    <types>
         <members>add_png</members>
         <members>anonymous_photo_png</members>
         <members>bootbox_js</members>
