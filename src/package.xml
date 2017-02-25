@@ -421,29 +421,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Account-en_US</members>
-        <members>Comment__c-en_US</members>
-        <members>Comment__c-ja</members>
-        <members>Custom_Survey_Answer__c-en_US</members>
-        <members>Custom_Survey_Answer__c-ja</members>
-        <members>Custom_Survey_Option__c-en_US</members>
-        <members>Custom_Survey_Option__c-ja</members>
-        <members>Custom_Survey_Question__c-en_US</members>
-        <members>Custom_Survey_Question__c-ja</members>
-        <members>Guest__c-en_US</members>
-        <members>Guest__c-ja</members>
-        <members>Lead-en_US</members>
-        <members>Presenter__c-en_US</members>
-        <members>Presenter__c-ja</members>
-        <members>Session__c-en_US</members>
-        <members>Session__c-ja</members>
-        <members>Survey__c-en_US</members>
-        <members>Survey__c-ja</members>
-        <members>config__c-en_US</members>
-        <members>config__c-ja</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
         <members>Presenter__c</members>
         <members>S1_session_list</members>
         <members>S1_survey</members>
@@ -518,10 +495,6 @@
         <members>survey_type_free_png</members>
         <members>survey_type_radio_png</members>
         <name>StaticResource</name>
-    </types>
-    <types>
-        <members>en_US</members>
-        <name>Translations</name>
     </types>
     <types>
         <members>Custom_Survey_Answer__c.session_must_match_parent</members>
