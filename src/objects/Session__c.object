@@ -953,6 +953,7 @@
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
+    <pluralLabel>Sessions</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Date__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Presenter__c</customTabListAdditionalFields>
