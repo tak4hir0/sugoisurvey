@@ -144,6 +144,7 @@
         <label>質問番号</label>
         <type>AutoNumber</type>
     </nameField>
+    <pluralLabel>Question</pluralLabel>
     <searchLayouts>
         <lookupDialogsAdditionalFields>Question__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Session__c</lookupDialogsAdditionalFields>
