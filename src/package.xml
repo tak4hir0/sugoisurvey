@@ -444,7 +444,6 @@
         <members>Custom_Survey_Question__c-カスタムアンケート 質問レイアウト</members>
         <members>Guest__c-ゲストレイアウト</members>
         <members>Presenter__c-プレゼンターレイアウト</members>
-        <members>Session__c-イベントレイアウト</members>
         <members>Survey__c-アンケートレイアウト</members>
         <name>Layout</name>
     </types>
@@ -501,7 +500,6 @@
         <members>Session__c.close_survey</members>
         <members>Session__c.delete_session</members>
         <members>Session__c.deliver_guest_pass</members>
-        <members>Session__c.deliver_handout</members>
         <name>WebLink</name>
     </types>
     <version>29.0</version>
