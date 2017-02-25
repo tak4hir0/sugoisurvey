@@ -798,10 +798,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>report</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>session_list</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
