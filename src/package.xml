@@ -26,6 +26,10 @@
         <members>validate_link_to_contact</members>
         <members>validate_presenter</members>
         <members>validate_session</members>
+        <members>guest_list</members>
+        <members>sites_mobile_session_detail</members>
+        <members>survey_for_guest</members>
+        <members>validate_survey_for_guest</members>
         <name>ApexClass</name>
     </types>
     <types>
