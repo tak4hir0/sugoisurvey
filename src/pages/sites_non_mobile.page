@@ -49,11 +49,11 @@ j$("document").ready(function(){
             });
             return false;
         }
-        
+
         var comment = {
             "comment__c":comment__c
         }
-    
+
         var csas = [];
         j$("#survey_form .custom_survey_container input[type='checkbox']:checked, #survey_form .custom_survey_container input[type='radio']:checked").each(function(){
             var custom_survey_option__c = this.value;
@@ -74,14 +74,14 @@ j$("document").ready(function(){
             }
             csas.push(csa);
         });
-    
+
         var guest_email = j$("#survey_email").val();
 
         j$.confirm.status({
             'title' : '{!$Label.processing}',
             'message' : '{!$Label.pls_wait_for_a_while}'
         });
-        
+
         submit_survey(survey, comment, csas, guest_email);
     });
 });

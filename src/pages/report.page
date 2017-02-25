@@ -21,7 +21,7 @@ j$("document").ready(function(){
     });
 });
 
-function report__map_all_event(selector){  
+function report__map_all_event(selector){
     j$(selector).on('click', '.button_reload_report_container', function(){
         report__reload_report_container();
     });
@@ -165,7 +165,7 @@ function report__draw_bar_chart(csq_id, custom_survey_data, session_id, custom_s
     };
     var chart = new google.visualization.BarChart(document.getElementById('barchart_' + csq_id));
     chart.draw(data, options);
-    
+
     google.visualization.events.addListener(chart, 'select', function(){
         var selectedData = chart.getSelection(), row, item;
         row = selectedData[0].row;
@@ -229,7 +229,7 @@ function report__draw_bar_chart(csq_id, custom_survey_data, session_id, custom_s
                             </div>
                             <div class="free_answer" id="free_answer_for_{!csq.id}">
                                 <!-- Free Answer will be inserted here -->
-                                <c:session_report_free_answer session_id="{!session.id}" csq_id="{!csq.id}" />
+                                <!--TODOc:session_report_free_answer session_id="{!session.id}" csq_id="{!csq.id}" /-->
                             </div>
                         </div>
                     </apex:outputText>

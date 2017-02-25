@@ -39,7 +39,7 @@
 <!-- Survey Form for each session -->
 <apex:repeat value="{!sessions}" var="session">
     <apex:outputText rendered="{!session.Open__c}">
-        <c:sites_mobile_session_detail session_id="{!session.id}"></c:sites_mobile_session_detail>
+        <!--TODOc:sites_mobile_session_detail session_id="{!session.id}"></c:sites_mobile_session_detail-->
     </apex:outputText>
 </apex:repeat>
 </apex:page>

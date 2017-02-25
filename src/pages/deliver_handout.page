@@ -20,7 +20,7 @@ function clear_delivered_flag(session_id){
         });
         return;
     }
-    
+
     j$.confirm({
 	    'title' : '{!$label.clearing_delivered_flag}',
 	    'message' : '{!$label.are_you_sure}',
@@ -120,7 +120,7 @@ function showCompleteMsg(){
                 {!session.Mass_Mail_Title__c}&nbsp;
             </div>
             <div>
-                <apex:outputtext escape="false" value="{!MailBody}"></apex:outputtext>
+                <!--TODOapex:outputtext escape="false" value="{!MailBody}"></apex:outputtext-->
             </div>
         </div>
     </apex:pageBlockSection>
