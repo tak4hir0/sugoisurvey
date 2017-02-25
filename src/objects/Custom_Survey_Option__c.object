@@ -137,6 +137,7 @@
         <type>AutoNumber</type>
     </nameField>
     <searchLayouts/>
+    <pluralLabel>Options</pluralLabel>
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>session_must_match_parent</fullName>
